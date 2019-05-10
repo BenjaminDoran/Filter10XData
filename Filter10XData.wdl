@@ -111,7 +111,7 @@ task FilterData {
   >>>
 
   output {
-    File filtered_h5ad = "${outfile}"
+    String filtered_h5ad = "${outfile}"
     File filterbarcodes = "output/filterbarcodes.h5"
   }
 
@@ -157,8 +157,8 @@ task MakeFilterPlots {
   }
 
   output {
-    File filtered_pdf = "${figdir}/${outpdf}"
-    File filtered_png = "${figdir}/${outpng}"
+    String filtered_pdf = "${figdir}/${outpdf}"
+    String filtered_png = "${figdir}/${outpng}"
   }
 
   runtime {

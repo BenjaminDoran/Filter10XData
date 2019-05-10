@@ -1,6 +1,6 @@
 {
-  "Filter10XData.infile": "/Users/ben/DATA/unfiltered/sample.h5",
   "Filter10XData.smp_id": "sample",
+  "Filter10XData.infile": "/Users/ben/DATA/unfiltered/sample.h5",
   "Filter10XData.outfile": "filtered.h5ad",
   "Filter10XData.figdir": "figs"
 }
